@@ -8,16 +8,16 @@
     # each side of the drive) are *with respect to their master*.  This is
     # different from the other project types!
     # Inversions for the left-side motors
-    "leftMotorsInverted": [False, False],
+    "leftMotorsInverted": [True, False],
     # Inversions for the right side motors
-    "rightMotorsInverted": [False, False],
+    "rightMotorsInverted": [True, False],
     # The total gear reduction between the motor and the wheels, expressed as
     # a fraction [motor turns]/[wheel turns]
-    "gearing": 1,
+    "gearing": 9,
     # Wheel diameter (in units of your choice - will dictate units of analysis)
-    "wheelDiameter": 0.333,
+    "wheelDiameter": 0.1524,
     # Your gyro type (one of "NavX", "Pigeon", "ADXRS450", "AnalogGyro", or "None")
-    "gyroType": "None",
+    "gyroType": "ADXRS450",
     # Whatever you put into the constructor of your gyro
     # Could be:
     # "SPI.Port.kMXP" (MXP SPI port for NavX or ADXRS450),
@@ -28,6 +28,11 @@
     # "" (NavX using default SPI, ADXRS450 using onboard CS0, or no gyro)
     "gyroPort": "",
 }
+
+
+
+
+
 
 
 
